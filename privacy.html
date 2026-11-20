@@ -26,10 +26,10 @@
 
     <main class="container">
         <h1>Privacy Policy</h1>
-        <p class="last-updated">Last Updated: November 20, 2026</p>
+        <p class="last-updated">Last Updated: November 20, 2026 (cloud AI providers)</p>
 
         <div class="highlight-card">
-            <p>BrainVault is built to keep your knowledge private. There is no BrainVault account and no BrainVault server. The developer does not collect, see, sell or share your notes, files or any personal data.</p>
+            <p>BrainVault is built to keep your knowledge private. There is no BrainVault account and no BrainVault server. The developer does not collect, see, sell or share your notes, files or any personal data. AI runs on your device with Apple Intelligence unless you choose to connect your own cloud AI provider.</p>
         </div>
 
         <h2>1. What You Store in BrainVault</h2>
@@ -61,7 +61,8 @@
         <ul>
             <li><strong>Web pages you save:</strong> when you save a link, BrainVault downloads that page from its website to read the title and text, just like opening it in a browser.</li>
             <li><strong>Speech recognition:</strong> voice is transcribed on your device when your device supports it. Otherwise, Apple's speech recognition service may process the audio, under Apple's privacy policy.</li>
-            <li><strong>Optional AI server:</strong> only if you choose to connect one in Settings → AI Server. When connected, your questions, relevant excerpts of your notes (or a note you ask it to analyze), and your About Me profile are sent to the server address you entered, so it can answer. That server is chosen and controlled by you, not by BrainVault. Its access token is stored in your device's Keychain. If you don't set up a server, nothing is sent.</li>
+            <li><strong>Optional cloud AI provider:</strong> BrainVault uses on-device Apple Intelligence by default. If you add your own API key for a cloud AI provider in Settings → AI Provider (Claude by Anthropic, ChatGPT by OpenAI, Gemini by Google, or Grok by xAI), then whenever that provider is used, BrainVault sends it your question, the relevant excerpts of your notes (or the note you ask it to analyze or summarize), and your About Me and Career Profile details when a feature needs them. It is used only if you choose "Cloud AI provider" as the AI engine, or on a device that can't run Apple Intelligence. Requests go directly from your device to the provider over an encrypted connection, never through BrainVault, and are billed to your account with that provider. The provider handles this data under its own terms and privacy policy, including how long it keeps it and whether it may use it to improve its models, which can differ between free and paid plans: <a href="https://www.anthropic.com/legal/privacy" target="_blank" rel="noopener">Anthropic</a>, <a href="https://openai.com/policies/privacy-policy/" target="_blank" rel="noopener">OpenAI</a>, <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google</a>, <a href="https://x.ai/legal/privacy-policy" target="_blank" rel="noopener">xAI</a>. Your API key is stored only in your device's Keychain and is never synced or sent anywhere except to that provider. If you don't add a key, nothing is sent.</li>
+            <li><strong>Custom server (advanced):</strong> if you instead connect your own BrainVault-compatible server, the same information is sent to the server address you entered, which you choose and control.</li>
             <li><strong>Purchases:</strong> BrainVault Pro is bought through the App Store. Apple processes the payment; BrainVault only receives confirmation that the purchase is valid.</li>
             <li><strong>Sharing and exports:</strong> files or text leave BrainVault only when you share or export them yourself.</li>
         </ul>
@@ -71,7 +72,7 @@
             <li>No accounts or sign-in.</li>
             <li>No advertising, analytics or tracking SDKs.</li>
             <li>No sharing or selling of data.</li>
-            <li>No use of your content to train AI models.</li>
+            <li>BrainVault does not use your content to train AI models.</li>
         </ul>
 
         <h2>6. Your Control and Deleting Data</h2>
